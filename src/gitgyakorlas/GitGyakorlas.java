@@ -7,13 +7,13 @@ public class GitGyakorlas {
     public static int max = 10;
     
     public static void main(String[] args) {    
-        kimenet("A tömb elemei: [ ", "Összege: ", osszegzes(tomb));
+        kimenet("A tömb elemei: [ ", "Összege: ", osszegzes());
         randomTomb();
         kimenet("A tömb elemei: [ ", "4-nél kisebb számok: ", kisebbMint(4));
         minKivalaszt();
     }
 
-    private static int osszegzes(int [] tomb) {
+    private static int osszegzes() {
         int sum = 0;
         for (int i = 0; i < tomb.length; i++) {
             sum += tomb[i];
