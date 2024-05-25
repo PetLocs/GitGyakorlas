@@ -66,7 +66,7 @@ public class GitGyakorlas {
         return min;
     }
 
-    private static void eldontes() {
+    private static String eldontes() {
         int oszto = 2;
         int i = 0;
         String valasz = "";
@@ -74,11 +74,11 @@ public class GitGyakorlas {
             i++;
         }
         if (i<5) {
-            System.out.println("Van páros szám.");
+            valasz = "Van páros szám.";
         }else{
-            System.out.println("Nincs páros szám.");            
+            valasz = "Nincs páros szám.";            
         }
-        
+        return valasz;        
     }
     
 }
