@@ -11,7 +11,8 @@ public class GitGyakorlas {
         randomTomb();
         kimenet("A tömb elemei: [ ", "4-nél kisebb számok: ", kisebbMint(4));
         randomTomb();
-        kimenet("A tömb elemei: [ ", "legkisebb szám: ", minKivalaszt());        
+        kimenet("A tömb elemei: [ ", "legkisebb szám: ", minKivalaszt());
+        eldontes();
     }
 
     private static int osszegzes() {
@@ -55,6 +56,10 @@ public class GitGyakorlas {
             }
         }
         return min;
+    }
+
+    private static void eldontes() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
     
 }
