@@ -47,7 +47,12 @@ public class GitGyakorlas {
     }
 
     private static void minKivalaszt() {
-        
+        int min = tomb[0];
+        for (int i = 0; i < tomb.length; i++) {
+            if (tomb[i] < min) {
+                min = tomb[i];
+            }
+        }
     }
     
 }
