@@ -69,6 +69,7 @@ public class GitGyakorlas {
     private static void eldontes() {
         int oszto = 2;
         int i = 0;
+        String valasz = "";
         while (i<5 && tomb[i]%oszto != 0) {
             i++;
         }
