@@ -30,6 +30,14 @@ public class GitGyakorlas {
         }
         System.out.println("]\n"+ szoveg2 + szam);
     }
+    
+    private static void kimenet2(String szoveg1, String szoveg2) {
+        System.out.print(szoveg1);
+        for (int i = 0; i < tomb.length; i++) {
+            System.out.print(tomb[i] + " ");
+        }
+        System.out.println("]\n"+ szoveg2);
+    }
 
     private static int kisebbMint(int szam) {
         int sum = 0;
