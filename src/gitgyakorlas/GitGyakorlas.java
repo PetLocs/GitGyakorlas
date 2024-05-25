@@ -10,7 +10,8 @@ public class GitGyakorlas {
         kimenet("A tömb elemei: [ ", "Összege: ", osszegzes());
         randomTomb();
         kimenet("A tömb elemei: [ ", "4-nél kisebb számok: ", kisebbMint(4));
-        minKivalaszt();
+        randomTomb();
+        kimenet("A tömb elemei: [ ", "legkisebb szám: ", minKivalaszt());        
     }
 
     private static int osszegzes() {
