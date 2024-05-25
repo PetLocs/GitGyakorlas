@@ -24,13 +24,14 @@ public class GitGyakorlas {
         System.out.println("\n"+ szoveg2 + szam);
     }
 
-    private static void megszamlalas() {
+    private static int megszamlalas() {
         int sum = 0;
         for (int i = 0; i < tomb.length; i++) {
             if (tomb[i] < 4) {
                 sum++;
             }
         }
+        return sum;
     }
     
 }
