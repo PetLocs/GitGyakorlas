@@ -4,7 +4,7 @@ public class GitGyakorlas {
 
     public static int[] tomb = new int[] {4, 2, -2, 10, 7};
     public static void main(String[] args) {    
-        kimenet("A tömb elemei: ", osszegzes(tomb));
+        kimenet("A tömb elemei: ", "Összege", osszegzes(tomb));
     }
 
     private static int osszegzes(int [] tomb) {
@@ -15,12 +15,12 @@ public class GitGyakorlas {
         return sum;
     }
 
-    private static void kimenet(String szoveg, int szam) {
-        System.out.print(szoveg);
+    private static void kimenet(String szoveg1, String szoveg2,int szam) {
+        System.out.print(szoveg1);
         for (int i = 0; i < tomb.length; i++) {
             System.out.print(tomb[i] + " ");
         }
-        System.out.println("\nÖsszege: " + szam);
+        System.out.println("\n"+ szoveg2 + szam);
     }
     
 }
