@@ -5,7 +5,7 @@ public class GitGyakorlas {
     public static int[] tomb = new int[] {4, 2, -2, 10, 7};
     public static void main(String[] args) {    
         kimenet("A tömb elemei: ", "Összege", osszegzes(tomb));
-        kimenet("A tömb elemei: ", "4-nél kisebb számok: ", megszamlalas());
+        kimenet("A tömb elemei: ", "4-nél kisebb számok: ", kisebbMint(4));
     }
 
     private static int osszegzes(int [] tomb) {
@@ -24,10 +24,10 @@ public class GitGyakorlas {
         System.out.println("\n"+ szoveg2 + szam);
     }
 
-    private static int megszamlalas() {
+    private static int kisebbMint(int szam) {
         int sum = 0;
         for (int i = 0; i < tomb.length; i++) {
-            if (tomb[i] < 4) {
+            if (tomb[i] < szam) {
                 sum++;
             }
         }
