@@ -59,6 +59,16 @@ public class GitGyakorlas {
     }
 
     private static void eldontes() {
+        int oszto = 2;
+        int i = 0;
+        while (i<5 && tomb[i]%oszto != 0) {
+            i++;
+        }
+        if (i<5) {
+            System.out.println("Van páros szám.");
+        }else{
+            System.out.println("Nincs páros szám.");            
+        }
         
     }
     
