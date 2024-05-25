@@ -9,7 +9,10 @@ public class GitGyakorlas {
     }
 
     private static void osszegzes(int [] tomb) {
-        
+        int sum = 0;
+        for (int i = 0; i < tomb.length; i++) {
+            sum += tomb[i];
+        }
     }
     
 }
