@@ -5,8 +5,8 @@ public class GitGyakorlas {
     public static void main(String[] args) {
         int[] tomb = new int[] {4, 2, -2, 10, 7};
         
-        osszegzes(tomb);
-        kimenet();
+        
+        kimenet(osszegzes(tomb));
     }
 
     private static int osszegzes(int [] tomb) {
@@ -17,7 +17,7 @@ public class GitGyakorlas {
         return sum;
     }
 
-    private static void kimenet() {
+    private static void kimenet(int szam) {
         
     }
     
