@@ -7,6 +7,10 @@ public class GitGyakorlas {
     public static int max = 10;
     
     public static void main(String[] args) {    
+        feladatok();
+    }
+
+    private static void feladatok() {
         kimenet("A tömb elemei: [ ", "Összege: ", osszegzes());
         randomTomb();
         kimenet("A tömb elemei: [ ", "4-nél kisebb számok: ", kisebbMint(4));
