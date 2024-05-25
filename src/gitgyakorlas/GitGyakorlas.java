@@ -8,6 +8,7 @@ public class GitGyakorlas {
     
     public static void main(String[] args) {    
         kimenet("A tömb elemei: [ ", "Összege: ", osszegzes(tomb));
+        randomTomb();
         kimenet("A tömb elemei: [ ", "4-nél kisebb számok: ", kisebbMint(4));
     }
 
@@ -35,6 +36,10 @@ public class GitGyakorlas {
             }
         }
         return sum;
+    }
+
+    private static void randomTomb() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
     
 }
