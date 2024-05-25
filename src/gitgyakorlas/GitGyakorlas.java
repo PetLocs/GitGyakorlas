@@ -5,10 +5,10 @@ public class GitGyakorlas {
     public static void main(String[] args) {
         int[] tomb = new int[] {4, 2, -2, 10, 7};
         
-        osszegzes();
+        osszegzes(tomb);
     }
 
-    private static void osszegzes() {
+    private static void osszegzes(int [] tomb) {
         
     }
     
