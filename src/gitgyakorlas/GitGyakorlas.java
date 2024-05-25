@@ -39,7 +39,7 @@ public class GitGyakorlas {
     }
 
     private static void randomTomb() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        tomb = new int[5];
     }
     
 }
