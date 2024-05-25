@@ -5,6 +5,7 @@ public class GitGyakorlas {
     public static int[] tomb = new int[] {4, 2, -2, 10, 7};
     public static void main(String[] args) {    
         kimenet("A tömb elemei: ", "Összege", osszegzes(tomb));
+        megszamlalas();
     }
 
     private static int osszegzes(int [] tomb) {
@@ -21,6 +22,10 @@ public class GitGyakorlas {
             System.out.print(tomb[i] + " ");
         }
         System.out.println("\n"+ szoveg2 + szam);
+    }
+
+    private static void megszamlalas() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
     
 }
