@@ -40,6 +40,9 @@ public class GitGyakorlas {
 
     private static void randomTomb() {
         tomb = new int[5];
+        for (int i = 0; i < tomb.length; i++) {
+            tomb[i] =(int)(Math.random()*(max-min) + min);
+        }
     }
     
 }
