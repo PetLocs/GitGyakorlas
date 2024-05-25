@@ -20,7 +20,7 @@ public class GitGyakorlas {
         for (int i = 0; i < tomb.length; i++) {
             System.out.print(tomb[i] + " ");
         }
-        System.out.println("\n Összege: " + szam);
+        System.out.println("\nÖsszege: " + szam);
     }
     
 }
