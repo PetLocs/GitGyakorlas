@@ -12,7 +12,7 @@ public class GitGyakorlas {
         kimenet("A tömb elemei: [ ", "4-nél kisebb számok: ", kisebbMint(4));
         randomTomb();
         kimenet("A tömb elemei: [ ", "legkisebb szám: ", minKivalaszt());
-        eldontes();
+        kimenet2("A tömb elemei: [ ", "Van-e páros szám? " + eldontes());
     }
 
     private static int osszegzes() {
