@@ -8,11 +8,12 @@ public class GitGyakorlas {
         osszegzes(tomb);
     }
 
-    private static void osszegzes(int [] tomb) {
+    private static int osszegzes(int [] tomb) {
         int sum = 0;
         for (int i = 0; i < tomb.length; i++) {
             sum += tomb[i];
         }
+        return sum;
     }
     
 }
